@@ -1,12 +1,579 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ACADEMICS-V</title>
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="style-starter.css">
 </head>
+
 <body>
-    <h1>Hai git</h1>
-    <h3>HELLO MACHANE </h3>
+    <!--/Header-->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light stroke py-lg-0">
+                <h1><a class="navbar-brand pe-xl-5 pe-lg-4" href="index.html">
+                        <span class="sublog">ACADEMICS-v</span>
+                    </a></h1>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-lg-auto my-2 my-lg-0 navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                                    <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                                  </svg>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="about.html">About Us 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                                    <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+                                  </svg>
+                            </a>
+                        </li>
+						<li class="nav-item">
+                            <a class="nav-link" href="services.html">Our Services
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                                  </svg>
+                            </a>
+                        </li>
+                     
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                                  </svg>
+                            </a>
+                        </li>
+
+                    </ul>
+                    <ul class="navbar-nav search-right mt-lg-0 mt-2">
+                        <li class="nav-item me-lg-3"><a href="tel:+8921746693" class="phone-btn btn btn-primary btn-style d-none d-lg-block btn-style ms-2">Call Us</a></li>
+                    </ul>
+
+                    <!-- //toggle switch for light and dark theme -->
+                </div>
+                <!-- toggle switch for light and dark theme -->
+                <div class="mobile-position">
+                    <nav class="navigation">
+                        <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <div class="mode-container">
+                                    <i class="gg-sun"></i>
+                                    <i class="gg-moon"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </nav>
+                </div>
+                <!-- //toggle switch for light and dark theme -->
+            </nav>
+        </div>
+    </header>
+    <br>
+    <br>
+    <!--//Header-->
+    <!-- feature with photo1 -->
+    <section class="w3l-feature-with-photo-1">
+        <div class="feature-with-photo-hny py-5">
+            <div class="container py-lg-5">
+                <div class="feature-with-photo-content">
+                    <div class="ab-in-flow row mb-lg-5 mb-3">
+                        <div class="col-lg-12 ab-right pl-lg-5">
+                            <h6 class="title-subhny mb-2"><span></span></h6>
+                            <h1 class=" mb-4">Why ACADEMICS-V ? </h1>
+                            <h6 class="mt-4">Academics V sounds like a valuable resource. If you’re looking for a platform that provides free details about colleges and universities, here are some options you might find helpful: </h6>
+                            <div class="w3l-buttons mt-sm-5 mt-4">
+                                <a class="btn btn-style mr-2" style="background: red; color: beige; font-size:15px;"  href="https://www.youtube.com/embed/V_dxQj21UEU?si=ugRw3sC1uB70quxh">MORE ABOUT US 
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                        <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                                      </svg>
+                                </a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //feature with photo1 -->
+    <!--/scholarships-->
+    <section class="w3l-products py-5" id="tabs">
+        <div class="container py-lg-5 py-md-4 py-2">
+            <div class="header-sec mx-auto text-center">
+                <h3 class="title-w3l mb-5">Scholarships</h3>
+            </div>
+            <div >   
+                <div class="card border-primary" style="border-radius:12px; background:#093242;">
+                  <div class="card-body">
+                    <h4 class="card-title" style="font-weight: bold; color:white;">NATIONAL SCHOLARSHIP PROGRAM (NSP) </h4>
+                    <p class="card-text"></p>
+                    <a href="forms.html" class="btn btn-primary" style="background:#165973;">Know More
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707z"/>
+                          </svg>
+                    </a>                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <br>
+    <!--//scholarships-->
+    
+    <!--/colleges-->
+    <section class="w3l-products py-5" id="tabs">
+        <div class="container py-lg-5 py-md-4 py-2">
+            <div class="header-sec mx-auto text-center">
+                <h3 class="title-w3l mb-5">Colleges</h3>
+        </div>
+        <div >   
+            <div class="card border-primary"style="border-radius:12px;background:#093242;">
+              <div class="card-body">
+                <h4 class="card-title" style="font-weight: bold; color:white;">COLLEGE OF ENGINEERING & TECHNOLOGY </h4>
+                <h6> </h6>
+                <p class="card-text"></p>
+                <a href="eng.html" class="btn btn-primary" style="background:#165973;">Know More 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707z"/>
+                      </svg>
+                </a>              </div>
+            </div>
+          </div>
+        <br>
+        <div >   
+            <div class="card border-primary"style="border-radius:12px;background:#093242;">
+              <div class="card-body">
+                <h4 class="card-title" style="font-weight: bold; color:white;">COLLEGE OF ARTS & SCIENCE</h4>
+                <p class="card-text"></p>
+                <a href="arts.html" class="btn btn-primary" style="background:#165973;">Know More 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707z"/>
+                      </svg>
+                </a>              </div>
+            </div>
+          </div>
+        <br>
+    </section>
+    <br>
+    <!--//colleges-->
+    
+    <!--/Register -->
+    <section class="w3l-contact-1 w3hny-form-btm py-5 ">
+        <div class="contacts-9 py-lg-5 py-md-4">
+            <div class="container">
+                <div class="header-sec text-center mb-5">
+                    <h5>JOIN OUR FAMILY</h5>
+                    <h3 class="title-w3l">
+                        Registration From 
+                    </h3>
+                </div>
+                <div class="contactct-fm map-content-9">
+                    <form action="https://script.google.com/macros/s/AKfycbyNPz-FNWtk5ijhN17SKazJhQbaiV6PUU8Wl3W0e_-HDuu_1GwQs_wLGXt49GMgJ4Iu/exec" class="pt-lg-4" method="post" id="gform">
+                        <div class="twice-two">
+                            <input type="text" class="form-control" name="Name" id="Name" placeholder="Name" required="">
+                            <input type="email" class="form-control" name="Email" id="Email" placeholder="Email" required="">
+                            <input type="tel" class="form-control" name="Phonenumber" id="Phonenumber" placeholder="Phonenumber" required="">
+                            <input type="text" class="form-control" name="College" id="College" placeholder="College" required="">
+                        </div>                     
+                        <textarea name="Message" class="form-control" id="Message" placeholder="Message" required=""></textarea>
+                        <div class="text-lg-center">
+                            <button type="submit" class="btn btn-primary btn-style mt-lg-5 mt-4">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //Register -->
+
+     <!--/About us -->
+     <section id="about-us">
+         <!-- breadcrumb -->
+    <section class="w3l-about-breadcrumb" style="background: rgb(72, 72, 230);">
+        <div class="breadcrumb-bg breadcrumb-bg-about">
+            <div class="container py-lg-5 py-sm-4">
+                <div class="w3breadcrumb-gids text-center">
+                    <div class="w3breadcrumb-info mt-5">
+                        <h2 class="w3ltop-title pt-4">About Us 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                                <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+                              </svg>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//breadcrumb-->
+    <!-- feature with photo1 -->
+    <section class="w3l-feature-with-photo-1">
+        <div class="feature-with-photo-hny py-5">
+            <div class="container py-lg-5">
+                <div class="feature-with-photo-content">
+                    <div class="ab-in-flow row mb-lg-5 mb-3">
+
+                        <div class="col-lg-12 ab-right pl-lg-5">
+                            <h6 class="title-subhny mb-2">About Us</h6>
+                            <h3 class="title-w3l mb-4">Know Your Institute More through Academics-V
+                            </h3>
+                            <p class="mt-4">We provide details about Educational Platform like Colleges as well as Schools . Another Service that we provide is giving details about the scholarships provides by state as well as central government .</p>
+
+                            <div class="w3l-buttons mt-sm-5 mt-4">
+                                <a class="btn btn-outline-primary btn-style mr-2" href="#services-v">Services </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //feature with photo1 -->
+    <!--/tabs-faqs-->
+    <section class="w3l-products py-5" id="tabs">
+        <div class="container py-lg-5 py-md-4 py-2">
+            <div class="header-sec mx-auto text-center">
+                <h6 class="title-subhny mb-2">Welcome to ACADEMICS - V, where excellence meets education! Our institution is committed to nurturing young minds, fostering creativity, and empowering students to reach their full potential. Here's what sets us apart:
+                </h6>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+
+                    <!--Horizontal Tab-->
+                    <div id="parentHorizontalTab">
+                        <ul class="resp-tabs-list hor_1 mb-2">
+                            <li>Our Vision</li>
+                            <li>Our Colleges</li>
+                            <li>Our Scholarships</li>
+                            <div class="clear"></div>
+                        </ul>
+                        <div class="resp-tabs-container hor_1">
+                            <div class="products-content">
+                                <div class="row mt-3">
+                                    <div class="col-lg-6 tabw3-left">
+                                        <h5 class="head">At ACADEMICS - V, we envision a world where knowledge knows no bounds. Our mission is to create a vibrant learning ecosystem that inspires intellectual curiosity, critical thinking, and holistic development. </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products-content">
+                                <div class="row mt-3">
+                                    <div class="col-lg-6 tabw3-left ps-lg-5 mt-lg-0 mt-5">
+                                        <h5 class="head">1. College of Arts and Sciences </h4>
+                                        <br>
+                                        <h5 class="head"> Our liberal arts college offers a diverse range of undergraduate and graduate programs. From literature to mathematics, students explore their passions and develop a well-rounded foundation. </h4>
+                                        <br>
+                                        <h5 class="head">2. College of Engineering and Technology </h4>
+                                        <br>
+                                        <h5 class="head">Cutting-edge labs, expert faculty, and industry partnerships define our engineering programs. Whether it's robotics, software development, or sustainable energy, we prepare students for the challenges of tomorrow.
+                                        </h4>
+                                        <br>
+                                        <h5 class="head">3. College of Medicine and Nursing </h4>
+                                        <br>
+                                        <h5 class="head">From nursing to public health, we train compassionate healthcare professionals. Our state-of-the-art simulation labs simulate real-world scenarios, allowing students to hone their skills.</h4>                            
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products-content">
+                                <div class="row mt-3">
+                                    <div class="col-lg-6 tabw3-left ps-lg-5 mt-lg-0 mt-5">
+                                        <h5 class="head">1.NSP Scholarship</h4>
+                                            <br>
+                                            <h5 class="head">NSP is a web based application that provides single stop solution for end- to-end scholarship process right from submission of student application, verification, sanction and disbursal to end beneficiary for different types scholarships provided by the various Ministries/Department of Government of India.
+                                            </h5>
+                                            <br>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//tabs-faqs-->
+    <!--/w3l-services-->
+    <section class="w3l-services py-5" id="services">
+        <div class="container py-md-5 py-3 pb-4">
+            <div class="title-content mb-5 text-center">
+                <h6 class="title-subhny mb-2">Faculties</h6>
+                <h3 class="title-w3l mb-4">These are Our Faculties</h3>
+            </div>
+            <div class="row about-cols">
+                <div class="col-lg-4 col-md-6 mt-md-0 mt-3">
+                    <div class="about-col">
+                        <h4 class="title">Amal Sonu</h4>
+                        <p> Founder & CEO of ACADEMICS_V</p>
+                        <p>BCA Student In Chinmaya Vishwa Vidhyapeeth</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-md-0 mt-3">
+                    <div class="about-col">
+                        <h4 class="title">Joel Reji Paul</h4>
+                        <p> Marketting Analyst of ACADEMICS_V</p>
+                        <p>Mechatronics Student In Nehru Engineering College , Thrissur</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-md-0 mt-3">
+                    <div class="about-col">
+                        <h4 class="title">Albin Biju</h4>
+                        <p> Data Entry Analyst of ACADEMICS-V</p>
+                        <p>BBA Student In Krupanidhi College of Commerce</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//w3l-services-->
+     </section>
+     <!--//About Us-->
+
+    <!--/Services-->
+    <section id="services-v">
+        <!-- breadcrumb -->
+        <section class="w3l-about-breadcrumb" style="background:blue;">
+            <div class="breadcrumb-bg breadcrumb-bg-about">
+                <div class="container py-lg-5 py-sm-4">
+                    <div class="w3breadcrumb-gids text-center">
+                        <div class="w3breadcrumb-info mt-5">
+                            <h2 class="w3ltop-title pt-4">Our Services
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                                  </svg>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--//breadcrumb-->
+        <!--/w3l-services-->
+            <section class="w3l-services py-5" id="services">
+                <div class="container py-md-5 py-3 pb-4">
+                    <div class="title-content mb-5 text-center">
+                        <h6 class="title-subhny mb-2">Services</h6>
+                        <h3 class="title-w3l mb-4">We Offer Services</h3>
+                    </div>
+                    <div class="row about-cols">
+                    <div class="col-lg-4 col-md-6 mt-md-0 mt-3">
+                        <div class="about-col">
+                            <h4 class="title">Institution Profile</h4>
+                            <p>Detailed information about each institution, including history, courses offered, faculty, infrastructure, and facilities.                        </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mt-md-0 mt-3">
+                        <div class="about-col">
+                            <h4 class="title">Search and Filter</h4>
+                            <p> Users can search for institutions based on location, courses, rankings, and other criteria.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mt-md-0 mt-3">
+                        <div class="about-col">
+                            <h4 class="title">Ranking and Rating</h4>
+                            <p>Display rankings (such as NIRF rankings¹) and student reviews for each institution.                        </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-md-0 mt-3">
+                        <div class="about-col">
+                            <h4 class="title">Course Informations</h4>
+                            <p>Information on available courses, syllabus, and admission requirements.                        </p>
+                         </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mt-md-0 mt-3">
+                        <div class="about-col">
+                            <h4 class="title">Admission Assistance</h4>
+                            <p>Guidance on admission procedures, application forms, and deadlines.                      </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mt-md-0 mt-3">
+                        <div class="about-col">
+                            <h4 class="title">Student Reviews and Testimonial</h4>
+                            <p>Real student experiences, pros, and cons.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--//w3l-services-->
+    </section>
+    <!--//Services-->
+
+    <!--/Contact us -->
+    <section id="contact-us">
+        <!-- breadcrumb -->
+    <section class="w3l-about-breadcrumb" style="background:blue;">
+        <div class="breadcrumb-bg breadcrumb-bg-about">
+            <div class="container py-lg-5 py-sm-4">
+                <div class="w3breadcrumb-gids text-center">
+                    <div class="w3breadcrumb-info mt-5">
+                        <h2 class="w3ltop-title pt-4">Contact Us
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                              </svg>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//breadcrumb-->
+    <!-- contact1 -->
+    <section class="w3l-contact-1 py-5" id="contact">
+        <div class="contacts-9 py-lg-5 py-md-4">
+            <div class="container">
+                <div class="row contact-view">
+                    <div class="col-lg-12 cont-details pe-lg-5">
+                        <div class="contactct-fm-text text-left">
+                            <h6 class="title-subhny">Say Hello</h6>
+                            <h4 class="title-w3l mb-2">Get In Touch With Us
+                            </h4>
+                            <p class="mb-sm-5 mb-4">Searching about Institutions from our website can help you know the details about the institions more precisely .We guarantee that you’ll be able to have any issue resolved within 24 hours.</p>
+                            <div class="cont-top">
+                                <div class="cont-left text-center">
+                                    <span class="fas fa-phone-alt"></span>
+                                </div>
+                                <div class="cont-right">
+                                    <h5>Phone number</h5>
+                                    <p><a href="tel:+8921746693">+(91) 89217 46693 [ Amal Sonu - Founder ]</a></p>
+                                    <p><a href="tel:+9400200364">+(91) 94002 00364 [ Joel Reji Paul - Marketing ]</a></p>
+                                    <p><a href="tel:+9400134515">+(91) 94001 34515 [ Albin Biju - Data Entry Analyst ]</a></p>
+                                </div>
+                            </div>
+                            <div class="cont-top margin-up">
+                                <div class="cont-left text-center">
+                                    <span class="fas fa-envelope-open-text"></span>
+                                </div>
+                                <div class="cont-right">
+                                    <h5>Send Email</h5>
+                                    <p><a href="mailto:academicsbyv@gmail.com" class="mail">academicsbyv@gmail.com</a></p>
+                                </div>
+                            </div>
+                            <div class="cont-top margin-up">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /contact1 -->
+    </section>
+    <!--//Contact us -->
+
+
+    <!--/footer-->
+    <section class="w3l-project-main">
+        <div class="container">
+            <div class="w3l-project py-md-5 py-4">
+                <div class="row py-5 align-items-center">
+                    <div class="col-lg-8 w3l-project-right">
+                        <div class="bottom-info">
+                            <div class="header-section pr-lg-5">
+                                <h6 class="title-subhny mb-2">Consultation</h6>
+                                <h3 class="title-w3l">Request Free Consultation <br>Lets Do It!
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 w3l-project-left about-w3page-btns mt-lg-0 mt-4">
+                        <div class="w3l-buttons d-sm-flex">
+                            <a class="btn btn-outline-primary btn-style" href="tel:+8921746693">Contact Us </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Js scripts -->
+    <!-- Template JavaScript -->
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="theme-change.js"></script>
+    <!--/Tabs-->
+    <script src="jquery-1.9.1.min.js"></script>
+    <script src="easyResponsiveTabs.js"></script>
+    <!--Plug-in Initialisation-->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            //Horizontal Tab
+            $('#parentHorizontalTab').easyResponsiveTabs({
+                type: 'default', //Types: default, vertical, accordion
+                width: 'auto', //auto or any width like 600px
+                fit: true, // 100% fit in a container
+                tabidentify: 'hor_1', // The tab groups identifier
+                activate: function(event) { // Callback function if tab is switched
+                    var $tab = $(this);
+                    var $info = $('#nested-tabInfo');
+                    var $name = $('span', $info);
+                    $name.text($tab.text());
+                    $info.show();
+                }
+            });
+        });
+
+    </script>
+    <!--//Tabs-->
+    <!-- MENU-JS -->
+    <script>
+        $(window).on("scroll", function() {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function() {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function() {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function() {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+
+    </script>
+    <!-- //MENU-JS -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function() {
+            $('.navbar-toggler').click(function() {
+                $('body').toggleClass('noscroll');
+            })
+        });
+
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
+
+    <!-- //bootstrap -->
+    <script src="bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
+
 </html>
